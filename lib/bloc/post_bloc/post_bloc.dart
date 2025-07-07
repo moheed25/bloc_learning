@@ -11,7 +11,7 @@ class PostBloc extends Bloc<PostEvent, PostState> {
   PostRepository postRepository = PostRepository();
   List<PostModel> tempPostList = [];
 
-  PostBloc() : super(const PostState()) {
+  PostBloc() : super( PostState()) {
     on<PostFetched>(fetchPostApi);
     on<SearchItem>(_searchItem);
   }
