@@ -2,7 +2,7 @@ import 'package:bloc/bloc.dart';
 import 'package:bloc_learning/bloc/image_picker/image_picker_events.dart';
 import 'package:bloc_learning/bloc/image_picker/image_picker_states.dart';
 import 'package:bloc_learning/utils/image_picker_utils.dart' show ImagePickerUtils;
-import 'package:equatable/equatable.dart';
+
 
 
 import 'package:image_picker/image_picker.dart';

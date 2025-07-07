@@ -16,7 +16,6 @@ import 'package:image_picker/image_picker.dart';
   }
 
   @override
-  // TODO: implement props
   List<Object?> get props => [file];
 
 }

@@ -10,7 +10,6 @@ import 'package:bloc_learning/view/image_picker/image_picker_screen.dart';
 import 'package:bloc_learning/view/snack_bar/snack_bar_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:http/http.dart';
 
 import '../../bloc/counter_bloc/counter_events.dart' show IncrementCounter, DecrementCounter;
 

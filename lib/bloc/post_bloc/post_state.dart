@@ -6,7 +6,7 @@ import 'package:equatable/equatable.dart';
 enum PostStatus { initial, success, failure }
 
 class PostState extends Equatable {
-  const PostState({
+   PostState({
     this.status = PostStatus.initial,
     this.posts = const <PostModel>[],
     this.message = '',
@@ -20,6 +20,8 @@ class PostState extends Equatable {
 
   final String message;
   final String searchMessage;
+
+
 
 
   PostState copyWith({
